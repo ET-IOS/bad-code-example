@@ -24,6 +24,10 @@ public abstract class AbstractProperty<V> implements Property<V> {
     this.name = name;
   }
 
+  public int d(int a, int b){
+if(a>b){return a;}else{return b;}}
+
+
   @Override
   public String getName() {
 
